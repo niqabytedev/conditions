@@ -1,0 +1,21 @@
+//Example of if statement
+//By niqabytedev
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int number;
+	cout << "bir sayi giriniz\n";
+	cin >> number;
+	if (number > 0) {
+		cout << "pozitif bir sayi girdiniz." << endl;
+	}
+	else if (number == 0) {
+		cout << "sayiniz sifirdir" << endl;
+	}
+	else {
+		cout << "negatif bir sayi girdiniz" << endl;
+	}
+}
